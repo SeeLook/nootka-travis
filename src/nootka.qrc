@@ -1,0 +1,170 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="MainWindow.qml">qml/MainWindow.qml</file>
+    <file alias="MainMenu.qml">qml/MainMenu.qml</file>
+    <file alias="TtoolBar.qml">qml/TtoolBar.qml</file>
+    <file alias="NootkaLabel.qml">qml/NootkaLabel.qml</file>
+    <file alias="MainScore.qml">qml/MainScore.qml</file>
+    <file alias="DialogLoader.qml">qml/DialogLoader.qml</file>
+    <file alias="NoteName.qml">qml/NoteName.qml</file>
+    <file alias="ScoreMenuContent.qml">qml/ScoreMenuContent.qml</file>
+    <file alias="MelodyMenuContent.qml">qml/MelodyMenuContent.qml</file>
+    <file alias="StatusTip.qml">qml/StatusTip.qml</file>
+
+    <file alias="HeadButton.qml">qml/shared/HeadButton.qml</file>
+    <file alias="PagesDialog.qml">qml/shared/PagesDialog.qml</file>
+    <file alias="Tile.qml">qml/shared/Tile.qml</file>
+    <file alias="ClefMenu.qml">qml/shared/ClefMenu.qml</file>
+    <file alias="MenuButton.qml">qml/shared/MenuButton.qml</file>
+    <file alias="NameStyleSelector.qml">qml/shared/NameStyleSelector.qml</file>
+    <file alias="InstrumentSelector.qml">qml/shared/InstrumentSelector.qml</file>
+    <file alias="RhythmSelector.qml">qml/shared/RhythmSelector.qml</file>
+    <file alias="TipRect.qml">qml/shared/TipRect.qml</file>
+    <file alias="TcheckBox.qml">qml/shared/TcheckBox.qml</file>
+    <file alias="TradioButton.qml">qml/shared/TradioButton.qml</file>
+    <file alias="Transposition.qml">qml/shared/Transposition.qml</file>
+    <file alias="TlabelText.qml">qml/shared/TlabelText.qml</file>
+    <file alias="Tflickable.qml">qml/shared/Tflickable.qml</file>
+    <file alias="TcuteButton.qml">qml/shared/TcuteButton.qml</file>
+    <file alias="TiconButton.qml">qml/shared/TiconButton.qml</file>
+    <file alias="LinkText.qml">qml/shared/LinkText.qml</file>
+    <file alias="Tframe.qml">qml/shared/Tframe.qml</file>
+    <file alias="TpopupDialog.qml">qml/shared/TpopupDialog.qml</file>
+    <file alias="Tmenu.qml">qml/shared/Tmenu.qml</file>
+    <file alias="RectButton.qml">qml/shared/RectButton.qml</file>
+    <file alias="PaneButton.qml">qml/shared/PaneButton.qml</file>
+    <file alias="TcomboBox.qml">qml/shared/TcomboBox.qml</file>
+    <file alias="TcomboEdit.qml">qml/shared/TcomboEdit.qml</file>
+    <file alias="TspinBox.qml">qml/shared/TspinBox.qml</file>
+    <file alias="Tslider.qml">qml/shared/Tslider.qml</file>
+    <file alias="TtextField.qml">qml/shared/TtextField.qml</file>
+
+<!--  Unused    -->
+<!--     <file alias="TprogressBar.qml">qml/shared/TprogressBar.qml</file> -->
+
+    <file alias="PitchView.qml">qml/sound/PitchView.qml</file>
+    <file alias="sound/VolumeBar.qml">qml/sound/VolumeBar.qml</file>
+    <file alias="sound/TempoBar.qml">qml/sound/TempoBar.qml</file>
+    <file alias="sound/TempoMenu.qml">qml/sound/TempoMenu.qml</file>
+    <file alias="sound/IntonationBar.qml">qml/sound/IntonationBar.qml</file>
+    <file alias="sound/TunerDialog.qml">qml/sound/TunerDialog.qml</file>
+    <file alias="sound/CountdownItem.qml">qml/sound/CountdownItem.qml</file>
+
+    <file alias="score/Score.qml">qml/score/Score.qml</file>
+    <file alias="score/Staff.qml">qml/score/Staff.qml</file>
+    <file alias="score/Clef.qml">qml/score/Clef.qml</file>
+    <file alias="score/ClefDrawer.qml">qml/score/ClefDrawer.qml</file>
+    <file alias="score/KeySignature.qml">qml/score/KeySignature.qml</file>
+    <file alias="score/Meter.qml">qml/score/Meter.qml</file>
+    <file alias="score/MeterDrawer.qml">qml/score/MeterDrawer.qml</file>
+    <file alias="score/Tie.qml">qml/score/Tie.qml</file>
+    <file alias="score/AddLine.qml">qml/score/AddLine.qml</file>
+    <file alias="score/NoteCursor.qml">qml/score/NoteCursor.qml</file>
+    <file alias="score/ScoreCursor.qml">qml/score/ScoreCursor.qml</file>
+    <file alias="score/NotePrompt.qml">qml/score/NotePrompt.qml</file>
+    <file alias="score/ScoreToolbox.qml">qml/score/ScoreToolbox.qml</file>
+    <file alias="score/ControlButton.qml">qml/score/ControlButton.qml</file>
+    <file alias="score/NoteAdd.qml">qml/score/NoteAdd.qml</file>
+    <file alias="score/DelControl.qml">qml/score/DelControl.qml</file>
+    <file alias="score/ControlBase.qml">qml/score/ControlBase.qml</file>
+    <file alias="score/Scordature.qml">qml/score/Scordature.qml</file>
+    <file alias="score/MelGenDialog.qml">qml/score/MelGenDialog.qml</file>
+    <file alias="score/MelodyNameDialog.qml">qml/score/MelodyNameDialog.qml</file>
+
+    <file alias="Instrument.qml">qml/instruments/Instrument.qml</file>
+    <file alias="instruments/Guitar.qml">qml/instruments/Guitar.qml</file>
+    <file alias="instruments/Piano.qml">qml/instruments/Piano.qml</file>
+    <file alias="instruments/PianoKeyBlack.qml">qml/instruments/PianoKeyBlack.qml</file>
+    <file alias="instruments/PianoKeyWhite.qml">qml/instruments/PianoKeyWhite.qml</file>
+    <file alias="instruments/Bandoneon.qml">qml/instruments/Bandoneon.qml</file>
+    <file alias="instruments/Sax.qml">qml/instruments/Sax.qml</file>
+    <file alias="instruments/OutScaleTip.qml">qml/instruments/OutScaleTip.qml</file>
+    <file alias="instruments/SaxFlap.qml">qml/instruments/SaxFlap.qml</file>
+
+    <file alias="TaboutNootka.qml">qml/about/TaboutNootka.qml</file>
+    <file alias="about/AboutPage.qml">qml/about/AboutPage.qml</file>
+    <file alias="about/HelpPage.qml">qml/about/HelpPage.qml</file>
+    <file alias="about/AuthorsPage.qml">qml/about/AuthorsPage.qml</file>
+    <file alias="about/LicensePage.qml">qml/about/LicensePage.qml</file>
+    <file alias="about/SupportPage.qml">qml/about/SupportPage.qml</file>
+    <file alias="about/DonorsPage.qml">qml/about/DonorsPage.qml</file>
+    <file alias="about/ChangesPage.qml">qml/about/ChangesPage.qml</file>
+    <file alias="about/QtPage.qml">qml/about/QtPage.qml</file>
+    <file alias="about/TextBackground.qml">qml/about/TextBackground.qml</file>
+
+    <file alias="TsettingsDialog.qml">qml/settings/TsettingsDialog.qml</file>
+    <file alias="settings/GlobalPage.qml">qml/settings/GlobalPage.qml</file>
+    <file alias="settings/ScorePage.qml">qml/settings/ScorePage.qml</file>
+    <file alias="settings/InstrumentPage.qml">qml/settings/InstrumentPage.qml</file>
+    <file alias="settings/SoundPage.qml">qml/settings/SoundPage.qml</file>
+    <file alias="settings/ColorButton.qml">qml/settings/ColorButton.qml</file>
+    <file alias="settings/KeySufixEdit.qml">qml/settings/KeySufixEdit.qml</file>
+    <file alias="settings/Select7note.qml">qml/settings/Select7note.qml</file>
+    <file alias="settings/ExamPage.qml">qml/settings/ExamPage.qml</file>
+    <file alias="settings/MiddleA440.qml">qml/settings/MiddleA440.qml</file>
+    <file alias="settings/TbuttonBar.qml">qml/settings/TbuttonBar.qml</file>
+
+    <file alias="LevelCreator.qml">qml/level/LevelCreator.qml</file>
+    <file alias="level/LevelsPage.qml">qml/level/LevelsPage.qml</file>
+    <file alias="level/QuestionsPage.qml">qml/level/QuestionsPage.qml</file>
+    <file alias="level/QuestionsBox.qml">qml/level/QuestionsBox.qml</file>
+    <file alias="level/MelodyPage.qml">qml/level/MelodyPage.qml</file>
+    <file alias="level/RhythmsPage.qml">qml/level/RhythmsPage.qml</file>
+    <file alias="level/AccidsPage.qml">qml/level/AccidsPage.qml</file>
+    <file alias="level/RangePage.qml">qml/level/RangePage.qml</file>
+    <file alias="level/LevelPreview.qml">qml/level/LevelPreview.qml</file>
+    <file alias="level/PreviewItem.qml">qml/level/PreviewItem.qml</file>
+    <file alias="level/LevelsSelector.qml">qml/level/LevelsSelector.qml</file>
+    <file alias="level/RemoveLevel.qml">qml/level/RemoveLevel.qml</file>
+    <file alias="level/MelodyListView.qml">qml/level/MelodyListView.qml</file>
+    <file alias="level/MelodyWrapper.qml">qml/level/MelodyWrapper.qml</file>
+    <file alias="level/MeterSelector.qml">qml/level/MeterSelector.qml</file>
+    <file alias="level/EndOnTonicTile.qml">qml/level/EndOnTonicTile.qml</file>
+    <file alias="level/CurrentKeyTile.qml">qml/level/CurrentKeyTile.qml</file>
+    <file alias="level/MaxIntervalTile.qml">qml/level/MaxIntervalTile.qml</file>
+    <file alias="level/RhythmDiversityTile.qml">qml/level/RhythmDiversityTile.qml</file>
+    <file alias="level/LevelValidationMessage.qml">qml/level/LevelValidationMessage.qml</file>
+
+    <file alias="wizard/Wizard.qml">qml/wizard/Wizard.qml</file>
+    <file alias="wizard/WizardInstrument.qml">qml/wizard/WizardInstrument.qml</file>
+    <file alias="wizard/WizardClef.qml">qml/wizard/WizardClef.qml</file>
+    <file alias="wizard/WizardOptions.qml">qml/wizard/WizardOptions.qml</file>
+    <file alias="wizard/OptionsContext.qml">qml/wizard/OptionsContext.qml</file>
+    <file alias="wizard/WizardOther.qml">qml/wizard/WizardOther.qml</file>
+    <file alias="wizard/WizardGuitars.qml">qml/wizard/WizardGuitars.qml</file>
+    <file alias="wizard/WizardBass.qml">qml/wizard/WizardBass.qml</file>
+    <file alias="wizard/WizardPiano.qml">qml/wizard/WizardPiano.qml</file>
+    <file alias="wizard/WizardBando.qml">qml/wizard/WizardBando.qml</file>
+    <file alias="wizard/WizardSax.qml">qml/wizard/WizardSax.qml</file>
+    <file alias="wizard/SoundInfo.qml">qml/wizard/SoundInfo.qml</file>
+
+    <file alias="exam/StartExam.qml">qml/exam/StartExam.qml</file>
+    <file alias="exam/ExamExecutor.qml">qml/exam/ExamExecutor.qml</file>
+    <file alias="exam/ExamResults.qml">qml/exam/ExamResults.qml</file>
+    <file alias="exam/ResultLabel.qml">qml/exam/ResultLabel.qml</file>
+    <file alias="exam/ExamTip.qml">qml/exam/ExamTip.qml</file>
+    <file alias="exam/QuestionTip.qml">qml/exam/QuestionTip.qml</file>
+    <file alias="exam/ResultTip.qml">qml/exam/ResultTip.qml</file>
+    <file alias="exam/ExamSummary.qml">qml/exam/ExamSummary.qml</file>
+    <file alias="exam/ExamSettingsDialog.qml">qml/exam/ExamSettingsDialog.qml</file>
+    <file alias="exam/CorrectNameAnim.qml">qml/exam/CorrectNameAnim.qml</file>
+    <file alias="exam/CorrectInstrAnim.qml">qml/exam/CorrectInstrAnim.qml</file>
+    <file alias="exam/CorrectNoteAnim.qml">qml/exam/CorrectNoteAnim.qml</file>
+    <file alias="exam/Certificate.qml">qml/exam/Certificate.qml</file>
+
+    <file alias="charts/AnalyzeDialog.qml">charts/qml/AnalyzeDialog.qml</file>
+    <file alias="charts/ChartView.qml">charts/qml/ChartView.qml</file>
+    <file alias="charts/LinearDelegate.qml">charts/qml/LinearDelegate.qml</file>
+    <file alias="charts/BarDelegate.qml">charts/qml/BarDelegate.qml</file>
+    <file alias="charts/ChartTip.qml">charts/qml/ChartTip.qml</file>
+    <file alias="charts/ChartToolButton.qml">charts/qml/ChartToolButton.qml</file>
+    <file alias="charts/LevelPopup.qml">charts/qml/LevelPopup.qml</file>
+    <file alias="charts/ChartHelpTip.qml">charts/qml/ChartHelpTip.qml</file>
+    <file alias="charts/ChartDrawer.qml">charts/qml/ChartDrawer.qml</file>
+
+    <file alias="nootini/AudioAnalyze.qml">qml/nootini/AudioAnalyze.qml</file>
+
+    <file alias="qtquickcontrols2.conf">qml/qtquickcontrols2.conf</file>
+
+  </qresource>
+</RCC>

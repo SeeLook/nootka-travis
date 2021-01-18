@@ -1,0 +1,109 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/nootka.ttf</file>
+        <file>fonts/Scorek.otf</file>
+        <file>changes</file>
+        <file>gpl</file>
+
+        <file>picts/flags/cs.png</file>
+        <file>picts/flags/de.png</file>
+        <file>picts/flags/default.png</file>
+        <file>picts/flags/en.png</file>
+        <file>picts/flags/es.png</file>
+        <file>picts/flags/fr.png</file>
+        <file>picts/flags/hu.png</file>
+        <file>picts/flags/it.png</file>
+        <file>picts/flags/pl.png</file>
+        <file>picts/flags/ru.png</file>
+        <file>picts/flags/sl.png</file>
+
+        <file>picts/pane/about.png</file>
+        <file>picts/pane/accidentals.png</file>
+        <file>picts/pane/author.png</file>
+        <file>picts/pane/changes.png</file>
+        <file>picts/pane/donors.png</file>
+        <file>picts/pane/global.png</file>
+        <file>picts/pane/help.png</file>
+        <file>picts/pane/i-00.png</file>
+        <file>picts/pane/i-01.png</file>
+        <file>picts/pane/i-02.png</file>
+        <file>picts/pane/i-03.png</file>
+        <file>picts/pane/i-04.png</file>
+        <file>picts/pane/i-05.png</file>
+        <file>picts/pane/i-06.png</file>
+        <file>picts/pane/i-07.png</file>
+        <file>picts/pane/levels.png</file>
+        <file>picts/pane/license.png</file>
+        <file>picts/pane/melody.png</file>
+        <file>picts/pane/notSaved.png</file>
+        <file>picts/pane/phoneSett.png</file>
+        <file>picts/pane/qt.png</file>
+        <file>picts/pane/questionMelody.png</file>
+        <file>picts/pane/questionNote.png</file>
+        <file>picts/pane/questions.png</file>
+        <file>picts/pane/range.png</file>
+        <file>picts/pane/rhythms.png</file>
+        <file>picts/pane/score.png</file>
+        <file>picts/pane/sound.png</file>
+        <file>picts/pane/support.png</file>
+
+        <file>picts/bando-bg.png</file>
+        <file>picts/bando-button.png</file>
+        <file>picts/body-bass.png</file>
+        <file>picts/body-electro.png</file>
+        <file>picts/body.png</file>
+        <file>picts/certBg.png</file>
+        <file>picts/delete.png</file>
+        <file>picts/fingbg-el.png</file>
+        <file>picts/fingbg.png</file>
+        <file>picts/fingerpoint.png</file>
+        <file>picts/logo.png</file>
+        <file>picts/nootka.png</file>
+        <file>picts/pianoBg.png</file>
+        <file>picts/pianokey.png</file>
+        <file>picts/pickup.png</file>
+        <file>picts/rosette.png</file>
+        <file>picts/saxAlto.png</file>
+        <file>picts/scr.png</file>
+        <file>picts/stamp.png</file>
+        <file>picts/tipbg.png</file>
+        <file>picts/wizard-left.png</file>
+
+        <file>mobile/newDir.png</file>
+        <file>mobile/dir.png</file>
+        <file>mobile/dirUp.png</file>
+        <file>mobile/card.png</file>
+
+        <file alias="picts/check.png">picts/flat/check.png</file>
+        <file alias="picts/clear-score.png">picts/flat/clear-score.png</file>
+        <file alias="picts/close.png">picts/flat/close.png</file>
+        <file alias="picts/correct.png">picts/flat/correct.png</file>
+        <file alias="picts/exam.png">picts/flat/exam.png</file>
+        <file alias="picts/exam-settings.png">picts/flat/exam-settings.png</file>
+        <file alias="picts/exit.png">picts/flat/exit.png</file>
+        <file alias="picts/fork.png">picts/flat/fork.png</file>
+        <file alias="picts/help.png">picts/flat/help.png</file>
+        <file alias="picts/levelCreator.png">picts/flat/levelCreator.png</file>
+        <file alias="picts/melody.png">picts/flat/melody.png</file>
+        <file alias="picts/metronome.png">picts/flat/metronome.png</file>
+        <file alias="picts/mic.png">picts/flat/mic.png</file>
+        <file alias="picts/open.png">picts/flat/open.png</file>
+        <file alias="picts/nootka-exam.png">picts/flat/nootka-exam.png</file>
+        <file alias="picts/nootka-level.png">picts/flat/levelCreator.png</file>
+        <file alias="picts/nextQuest.png">picts/flat/nextQuest.png</file>
+        <file alias="picts/prevQuest.png">picts/flat/prevQuest.png</file>
+        <file alias="picts/practice.png">picts/flat/practice.png</file>
+        <file alias="picts/playMelody.png">picts/flat/playMelody.png</file>
+        <file alias="picts/stopMelody.png">picts/flat/stopMelody.png</file>
+        <file alias="picts/record.png">picts/flat/record.png</file>
+        <file alias="picts/restore-defaults.png">picts/flat/restore-defaults.png</file>
+        <file alias="picts/send.png">picts/flat/send.png</file>
+        <file alias="picts/save.png">picts/flat/save.png</file>
+        <file alias="picts/score.png">picts/flat/score.png</file>
+        <file alias="picts/startExam.png">picts/flat/startExam.png</file>
+        <file alias="picts/stopExam.png">picts/flat/stopExam.png</file>
+        <file alias="picts/systemsettings.png">picts/flat/systemsettings.png</file>
+        <file alias="picts/zoom-in.png">picts/flat/zoom-in.png</file>
+        <file alias="picts/zoom-out.png">picts/flat/zoom-out.png</file>
+    </qresource>
+</RCC>

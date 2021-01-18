@@ -1,0 +1,612 @@
+1.7.3 beta3
+     - new way of detecting note/rest duration (rhythms)
+     - managing rests and ties in exam melodies
+     - exam melodies from melody set can be played in order
+     - melodies order in set is editable
+     - user can define repeats number of melodies from the set
+     - improved level preview table
+     - updated SoundTouch library version to 2.2 (Windows, Android)
+    ANDROID
+     - display menu entries to navigate exam (along with quick buttons)
+     - indicate input volume by scaling menu button dot
+     - option for suspending mic when screen was touched
+    LINUX
+     - fixed AppImage issues - works under Wayland as well
+    MAC
+     - available again, no need for chasing font different way
+
+1.7.2 beta2
+     - improved rhythm detection
+     - bug fixes
+    ANDROID
+     - improved controls for navigating exams (check, next, etc.)
+     - use long press to display description of some controls
+     - vol keys invoke tuner but control volume when playing
+
+1.7.1 (never released)
+     - improved analysis charts (look and behavior)
+     - added handy drawer with exam list and chart options
+     - improved tuner, added middle 'a' frequency settings there
+     - notes with the same pitches can be tied by user
+     - disabling level creator pages which are currently unused
+     - added help topic selector on 'help page' with all the context
+     - make controls look (check boxes, radios, sliders) consistent
+     - fixed/improved transposition of bass, transitions from dropped clef
+    ANDROID
+     - configurable options for full screen, rotation and lock
+     - added zoom for selecting piano keys
+    Under the hood:
+     - reduced memory usage for charts with many questions
+     - migrated version control to GIT, keep entire Nootka code history
+
+1.7.0 beta1
+  Nootka says: I speak Italian
+     - added Italian translation
+     - metronome can tick audibly, also during pitch detection
+     - audible and/or visible countdown before playing and listening
+     - added support for scientific octave numbers in note names
+     - read/save melody title, composer, tempo, beat
+     - level can consist set of melodies loaded from files
+     - restored charts (analysis) with updated look
+     - improved start wizard to handle more supported instruments
+     - exam summary displays pie chart with kinds of mistake
+
+1.5.2 alpha3
+     - adding/deleting notes to score works like in text editor
+     - edit/view mode in score
+     - added dialog to selecting options of random melody
+     - improvements in algorithm generating melodies
+     - extended grand staff, beaming notes on every staff separately
+     - score supports bowing symbols, read them from XML
+     - keyboard shortcuts for changing rhythm, accidentals, etc.
+     - all playing routines moved to separate thread
+     - improved level creator
+
+1.5.1 alpha2
+     - detecting duration (rhythm) of sound along with its pitch
+     - simple metronome and its menu for configuring parameters
+     - added bandoneon and saxophone views
+     - audio plays different sounds (piano, bandoneon, sax)
+     - real support for transposing instruments
+     - new Nootka icons (application, level/exam files)
+     - more stuff ported to QML
+
+1.5.0 alpha1
+     - added support for rhythms to the score
+     - import/export to/from music XML files
+     - added piano view
+     - porting visible part into QML - rendering with graphics device
+     - many improvements of user interface
+     - option for enable/disable animations
+
+
+
+
+1.4.7
+     - a few improvements for instruments other than guitar
+    BUGS FIXES
+     - properly display answer result messages
+    ANDROID
+     - fix write access for newer Android versions
+
+1.4.6
+  Nootka says: I speak Slovenian
+     - added Slovenian translation
+     - more user friendly method of checking played notes in exercises
+    BUGS FIXES
+     - fixed crash after finishing exam/exercise
+     - keep random generated melody in clef range
+    LINUX
+     - use standard path for icons (app, mime) (/usr/share/icons/hicolor)
+     - set of scaled icons for above
+     - added appdata XML file for better desktop integration and packaging
+     - Flatpack package available
+    ANDROID
+     - asking for permissions: required by newer Androids
+     - added arm64_v8a and x86_64 versions
+
+1.4.5
+  Nootka says: I speak Hungarian
+     - added Hungarian translations
+     - Stylus support on touch screens (Requires Qt 5.9/Android 4.2 and above)
+     - using secure SSL connections when possible (update check, links)
+    BUGS FIXES
+     - Don't stop pitch detection when question and answer are a sound
+    ANDROID
+     - Removed memory leaks, fixed two issues causing random crashes
+
+1.4.4
+     - German translation is complete
+     - support for marking more frets on the fingerboard
+    BUGS FIXES
+     - fixed annoying crash on entering settings when 'other' instrument was used
+
+1.4.3
+    ANDROID
+     - attempt to fix random crashes related to audio input
+    Mac
+     - improved look of checkable buttons (note name)
+    BUGS FIXES
+     - removed a few memory leaks
+
+1.4.2
+     - added standalone AppImage for Linux
+    BUGS FIXES
+     - don't stop pitch detection after playing a note
+     - avoid false update messages
+     - properly detect default language under Win 10
+
+1.4.1
+    BUGS FIXES
+     - Fixed issues with note range in custom created levels
+
+1.4.0
+     - new method to make random melodies more... melodic
+     - melody can be randomized from selected notes, i.e. pentatonic scale
+     - so added level with pentatonic scales
+     - solfege or letter note names can be selected during first run wizard
+     - improved look of sound views, better fit to high DPI screens
+    ANDROID
+     - reduced number of paint operations, works even 2-4 times faster
+     - volume settings and pitch preview can be invoked with volume keys
+     - settings menu entry is placed on the top menu label
+     - stop pitch detection when app is going background, restore when backs
+    BUGS FIXES
+     - fixed positioning of tips with question content
+     - other small fixes
+
+1.3.0 alpha1
+     - removed roundness of widget/tips
+     - scroll-able widgets can be flicked with mouse/finger
+     - improved scaling of dialog windows
+     - prepared code for further features
+    Under the hood
+     - Android and Desktop code are in the single branch now
+     - reorganized layout of libraries, score is in separate lib
+     - exam execution moved to plugin
+
+1.2A.7 rc3
+    ANDROID
+     - handle pinch gesture to zoom score in/out
+     - touching screen suspends pitch detection
+     - updated Qt version to 5.6.1
+    BUGS FIXES
+     - prevent stopping input sound randomly
+     - fixed issues with saving exams/levels on device
+
+1.2.7
+  Nootka says: I speak Spanish
+     - translated to Spanish language
+     - better method of handling input audio data, increased buffer size
+     - forwarding input to output works with every sound system now
+    BUGS FIXES
+     - fixed reason of random crashes when audio input started
+     - repaired starting exam with melodies from single note mode view
+     - file descriptions are translated under Mac Os Finder
+     - fixed deb package compatibility with Ubuntu 16.04
+     - other minor fixes
+
+1.2A.6 rc2
+  Google Play(s) with Nootka
+    ANDROID
+     - prepared to release in Google Play
+     - change of any option highlights menu button to remember about confirmation
+     - added help-like animation to describe how to use sweeping of main menu
+     - better fit to high dpi screens
+    BUGS FIXES
+     - fixed some scaling issues
+
+1.2.6
+     - clicking melody note displays guitar position (only exercises)
+     - updated Russian translation
+     - improvements of scaling guitar image for different resolutions
+    BUGS FIXES
+     - fixed bug with doubled fingerboard on high resolution screens
+     - keep right-side note pane always visible, even at the staff end
+
+1.2A.5 rc1
+    ANDROID
+     - added update checker
+     - improved widget to starting lessons
+    BUGS FIXES
+     - fixed fluency of playing guitar sounds
+     - fixed random crashes during editing score with multiple staves
+    Under the hood
+     - reorganized layout of libraries, score is in separate lib
+     - exam execution moved to plugin
+
+1.2.5
+     - added new levels
+     - added donors list
+    BUGS FIXES
+     - clef menu visibility fixes for Qt 5.6 compatibility
+     - fixed storing of instrument scale for non guitars
+     - other minor fixes
+
+1.2A.4 beta2
+    ANDROID
+     - exam file can be sent directly through Android native services
+     - improved main menu
+    BUGS FIXES
+     - fixed crash when re-enabling input/output settings
+     - fixed note scaling during correction animation
+     - note cursor is hidden properly
+     - other glitches repaired
+
+1.2.4
+     - reduced memory consumption of pitch detection process
+     - Ported 1.2 branch to Mac Os
+    BUGS FIXES
+     - Fixed crash when note name tip was invoked from temporary, auto added note segment
+     - Default color of enharmonic notes/names is set properly and approved when changed
+     - Resizing issues - fingerboard never goes out of a view
+     - other small fixes
+
+1.2A.3 beta1
+     - added touch interface, adjusted GUI layout to it
+    ANDROID
+     - new file and color dialogues adjusted for touch screens
+     - corner menu button and menu similar to Android native
+     - new layout of dialog windows for better touch integration
+     - audio stack ported to Qt Audio for mobile devices
+    Under the hood
+     - code fully depends on c++11 capable compiler
+
+1.2.3
+    BUGS FIXES
+     - During exams - don't run pitch detection after settings dialog was closed
+     - Fixed layout of exam results when note name is visible
+     - Additional staff lines are hiding properly
+     - Fixed conditions when 'correct' tool button is displayed
+     - Questioned note and corrected one might have distorted colors - fixed
+     - small fixes of translations
+
+1.2.2
+     - updated Russian translation
+     - added flick-able scroll (by mouse dragging) to windows with help
+    BUGS FIXES
+     - fixed crash related to hiding temp note segment at the staff end
+     - properly loading translations of guitar tuning
+     - fixed French translation
+     - fixed mistakes in Polish translation
+     - preventing of text selection in help windows
+
+1.2.1
+    BUGS FIXES
+     - fixed finger position validation - it might corrupt exam files
+     - properly hide disabled double accidentals buttons in note name menu
+     - fixed position of note name menu when it is moving between staves
+     - fixed compilation issues if missing c++11 flag
+
+1.2.0 final
+  Nootka plays melodies
+     - updated on-line help
+     - unlocked help button(s) to opening related help sites
+     - improved displaying accidentals and neutrals in melodies
+    BUGS FIXES
+     - repaired and improved asking penalty melodies in exams
+     - fixed melody chart tip - correctly displays every attempt summary
+     - fixed and improved animations of accidentals from note to key signature
+     - intonation checking respects properly setting of accuracy level
+     - fixed issue when exam was corrupted due to wrongly reading it from a file
+     - fixed determining mistake types for melodies
+     - fixed chart issues when melodies are analyzing
+     - fixed a lot of small glitches
+
+1.1.7 rc2
+     - improvements/fixes related to low latency and real-time audio
+     - updated Qt libraries to the latest version in Windows installer
+     - changed all static font sizes to system related sizes
+    BUGS FIXES
+     - proper clef rendering in question tips
+     - proper re-sampling when rate is bigger than 48000
+     - avoiding multiple calls of status messages for better performance
+     - fixed loading Qt translations and switching languages
+     - fixed Debian package dependencies, Ubuntu 14.04 is supported now
+
+1.1.6 rc1
+     - new, advanced settings for pitch detection
+     - workarounds to avoid pitch-detection of the same note twice
+     - other pitch detection improvements
+     - better support when audio input and output are different devices
+     - updated translations
+    BUGS FIXES
+     - updated RtAudio to latest git version - many bugs fixes
+     - tons of fixed bugs, mistakes and glitches...
+
+1.1.5 beta
+     - detailed preview of melodies in charts
+     - added new tool button with menu to manage a score
+     - new, quick, click-less way for adding notes to a score
+     - improved pop-up for selecting note name over score
+     - a note from played exam melody can be selected to start playing from it
+     - improved look of sound meters widgets
+     - intonation accuracy can be set from intonation view
+     - first run wizard comes back improved  - it is a plugin now
+     - improved user visible texts
+     - updated Windows installer
+    BUGS FIXES
+     - tons of fixed bugs, mistakes and glitches...
+    Under the hood
+     - external executable-s converted to plugins, loaded on demand
+     - audio device has single instance shared with external settings plugin
+
+1.1.4 alpha
+     - exam tips are storing their position when moved by user
+     - some icons changed
+    BUGS FIXES
+     - fixed a lot of small glitches
+    Under the hood
+     - removed all 'extern' statements from libraries
+
+1.1.3 alpha
+     - There is an option for using JACK (Linux) and ASIO (Windows)
+     - pitch detection range is set dynamically instead of settings
+     - two pitch detection methods merged into single, two-steps method
+     - improved detection of quickly repeated (the same) notes
+     - exam question tips are movable and were improved
+     - window elements (hints, sound view, guitar, tool bar) can be hidden
+     - dots marking frets are configurable
+    BUGS FIXES
+     - flickering of an analyze chart was put right
+
+1.1.2 alpha
+     - exams/exercises support for playing melodies from a score
+     - exams/exercises support for writing listened melodies
+     - recognizing new mistake types related to melodies
+     - added tuning fork button to play middle A in exams based on listening
+     - added pop-up panes to quick manage a note in a score
+     - improved randomization, all notes from range will occur equally
+     - simple import/export melodies to XML (music) format
+    Under the hood
+     - binary format of exam files (*.noo) changed to text based
+     - saving melodies and related information in *.noo files
+     - dividing and cleaning monolithic code of examining process
+
+1.1.1 alpha
+     - interactive score with staves (systems)
+     - possibility of adding/removing notes to the score
+     - GUI layout changed
+     - option for displaying accidentals from key signature close to a note
+     - note names can be displayed on the score (below every note)
+     - option for forwarding audio input through selected audio output
+     - improved level creator
+    Under the hood
+     - ported to Qt5
+     - divided for libraries and external executable files
+     - updated RtAudio version
+     - updated SoundTouch version (Windows/MacOs), better optimization
+     - under newer Windows Os-es version WASAPI or ASIO is used and DS for XP
+     - merged audio input and output callback methods
+     - ported binary format of *.nel files to XML
+
+======
+
+
+1.0.1
+     - finished German translation
+    BUGS FIXES
+     - fixed crash with some JACK configurations
+     - small scaling issues in a chart 
+
+1.0.0
+  Nootka says: I'm number one
+    BUGS FIXES
+     - fixed grand staff lines width and switching to single staff
+     
+0.9.8 rc4
+     - alternate note names on an axis chart
+     - adjusting pitch detection range to possibilities of a clef
+    BUGS FIXES
+     - fixed animation of corrected position for left-handed players layout
+     - styles of note names on linear charts are displayed properly
+     - fixed desktop entry for rpm packages
+
+0.9.7 rc3
+  Nootka says: I speak German
+     - added German translation
+    BUGS FIXES
+     - fixed acting with non pitch-ordered strung/tuned guitars
+     - fixed/improved electric/bass guitar look
+     - fixed layout in different window sizes
+     - improved rpm validation results
+     - fixed detecting clef type from older versions of Nootka files
+
+0.9.6 rc2
+    BUGS FIXES
+     - fixed high CPU usage with PulseAudio
+     - fingerboard properly hides highlighted string
+     - font scaling fixes and placement of texts (note name)
+     - translations fixes
+
+0.9.5 rc1
+  Nootka says: I'm afraid of exams
+     - added exercise mode, without penalties and elapsing time
+     - more options for exercises (clues, additional note names, etc.)
+     - extended support for instruments different than guitar 
+     - transposing is possible in a range ±12 semitones (octave)
+     - Nootka gives 'Certificate of Exam Completion' when you pass
+     - exam can check intonation of a sound and its accuracy is configurable
+     - English language in Nootka was corrected and improved
+     - buttons with octaves and accidentals are highlighted during answering
+     - audio input device settings dialog is more clear and neat
+     - GUI layout enhancements
+     - crossing of played notes is fluent now - it was cleaned from cracks
+     - preview of a level was improved and levels can be deleted as well
+     - intonation view displays differences more accurate
+     - added animations of accidentals corresponding with key signature
+     - tons of smaller fixes/improvements
+    BUGS FIXES
+     - Nootka doesn't crash when guitar or singing is out of tune
+     - fixed random crash when midi output was in use
+     - piano stave is properly locked in exams and level creator
+     - audio devices not supported rate of 44100 Hz work properly
+     - fixed switching instrument type when an exam is continued
+     - fixed losing default audio device in Linux ALSA
+
+0.8.95 beta
+  Nootka says: I speak Russian and play bass
+     - Nootka can play natural bass and electric guitar sounds
+     - Russian translation added
+     - pitch detection improvements - minimal note duration is configurable
+     - compiling under Windows is simpler now
+     - possible launching without installation
+     - a lot of small improvements
+    BUGS FIXES
+     - fixed crashes related with DirectSound under Windows
+     - many small bugs were repaired
+
+0.8.89 prebeta (not so official release)
+     - added support for bass guitars
+     - strings number can be changed, width depends on their pitch
+     - added possibility to display notes on grand stave
+     - support for different clefs (bass, alto, tenor)
+     - range of detected pitches was extended and is configurable
+     - settings dialog launches faster and takes less memory
+     - default settings can be restored
+    Under the hood
+     - score widget written from scratch and ready for further changes
+
+0.8.77 beta
+     - added intonation view of played sound
+     - checking for new versions of an application
+     - improved reaction on detected pitch (faster and fluid)
+     - audio output supports change of base frequency
+    Under the hood
+     - audio layer ported to RtAudio
+     - under Linux added support for PulseAudio & JACK (experimental) 
+     - sound data compressed to ogg
+
+0.8.60 beta
+     - added bar charts
+     - new types of chart: sorted by question type and by mistakes
+     - line on a chart showing progress of an exam
+     - added tip how to confirm an answer
+     - images on tips are clickable to simpler navigate through an exam
+     - changes preview
+    Under the hood
+     - many improvements in a chart engine
+    
+0.8.51 stable
+    BUGS FIXES
+     - eliminated some memory leaks related with charts and tips
+     - fixed crash for exams with all answers incorrect
+
+0.8.5 stable
+  Nootka says: I will tell You about what You've been thinking for so long...
+     - added detailed description of an application in first run wizard
+    BUGS FIXES
+     - fixed crash after right click on exam help window
+     - made application more proof on abnormal DPI settings
+     - proper recognizing answers on wrong strings
+     - fixed shortened sound output under Windows
+     - a few smaller bugs were fixed
+
+0.8.4 rc1
+     - tons of visual changes to fix, adjust and improve
+     - time of wrong aswers is no more included to average
+    BUGS FIXES
+     - fixed proper note pitch in exams with single key
+     - fixed crashes related with preferences window
+     - proper displaying natural signs in questions preview
+     - proper counting of number of mandatory questions in exams
+     - fixed translation of color/open/save dialogues
+
+0.8.3 beta 
+  Nootka says: I speak French
+     - French translation added
+     - exams can be finished after answering specified number of questions
+     - displaying progress of an exam end details
+     - mistakes are stored and are asked oftener
+     - New chart - ordered by key signatures
+     - implemented question and answer as position on a guitar
+     - recognizing answers with proper sound but wrong string
+     - simpler level creator and improved validation of levels
+     - improved hints during an exam
+    BUGS FIXES
+     - in Nootka font- fixed look of string numbers under Windows
+
+0.8.2 beta    
+     - Added new charts - data sorted by note pitch and fret number
+     - improved dialog window to start/continue exams
+     - new, more detailed dialogues with question during exams
+     - A few settings of a chart
+
+0.8.1 beta
+     - !!! Added analyze of an exam results - first chart !!!
+     - opening Level Creator from starting exam dialog
+     - starting exams from Level Creator dialog
+    Under the hood
+     - implementation of chart engine
+
+0.8 final	  
+  Nootka says: I can hear You
+     - added support for MacOs and related issues
+     - during exams double accidentals buttons in Note Name are hidden if no needed
+     - GUI texts improved
+     - adjustments and bug-fixes for some rare question/answer combinations
+    BUGS FIXES
+     - fixed behaviour of the buttons in Note Name Widget
+     - fixed segmentation fault after probing audio input
+     - fixed forcing accidentals on ear training level
+     - a lot of smallest
+
+0.8 beta
+     - !!! Added sound input and pitch detection !!!
+     - added possibility to change base pitch of a1 note
+     - simple preview of an exam results
+     - expert's mode in an exam
+     - help window during exams
+     - better sound output under Windows (in Linux it remains good)
+     - layout of widgets was improved
+     - Bespin QT style "friendly" - more clear look of buttons
+  BUGS FIXES
+     - right mouse button does what it has to do
+     - fixed hanging up on an exam start for some levels
+     - a lot of small bug-fixes
+  Under the hood
+     - cpack rules for building deb & rpm & src packages
+     - ported audio lib to "Qt native" QtMultimedia
+
+0.7.8
+  Nootka says: I speak Czech
+     - added Czech translation
+     - added language selector to settings
+     - added translations for associated Nootka files under Windows 
+  BUGS FIXES
+     - key signatures suffixes are translated properly
+     - removed untranslated strings
+     - fixed segmentation fault occurred after run on some 
+      platforms (Fedora, Debian)
+
+0.7.7
+   Nootka says: I can play
+     - !!! Sound output added, also questions as played sound !!!
+     - added midi playback
+     - added playback with natural sound of classical guitar
+     - support for opening external nootka files
+     - polish translation
+     - associate Nootka files with executable also under Windows
+     - added button for fast switch on/off hints
+     - questions and answers view is more clear
+     - right mouse button asks questions and checks answers
+     - preventing to use levels with a range out of current tune and frets number
+     - possibility of changing colors of some elements
+  BUGS FIXES
+     - fixed drawing last fret out of a fingerboard
+     - fixed proper position of a clef and accidentals
+     - fixed encoding characters under non UTF8 systems
+     - Guitar is disabled during exams in proper way
+     - Fixed behaviour of right mouse button over fingerboard
+     - and few smaller bugs
+
+0.7.0
+     - !!! executing exams !!!
+     - storing user settings
+     - created nootka font
+     - added first run wizard
+
+0.6
+     - Levels creator dialog
+  Under the hood
+     - all resources moved out of executable file
